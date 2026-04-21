@@ -22,7 +22,7 @@ $.getJSON(weatherAlertsUrl, function(data) {
     style: function(feature){
       var alertColor = 'orange';
       if (feature.properties.severity === 'Severe') alertColor = 'red';
-      if (feature.properties.severity === 'Extreme') alertColor = 'indianred';
+      if (feature.properties.severity === 'Extreme') alertColor = 'deeppink';
       if (feature.properties.severity === 'Minor') alertColor = 'darkkhaki';
       return { color: alertColor };
     },
