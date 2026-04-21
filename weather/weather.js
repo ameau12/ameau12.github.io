@@ -2,9 +2,7 @@
 var map = L.map('map').setView([38, -95], 4);
 
 // Add OpenStreetMap to the map
-var basemapUrl = 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
-	maxZoom: 19,
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+var basemapUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var basemap = L.tileLayer(basemapUrl).addTo(map);
 
 // Add weather radar to the map
