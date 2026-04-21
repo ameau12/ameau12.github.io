@@ -7,4 +7,4 @@ A map showing real-time weather radar and alerts from the National Weather Servi
 
 ## Photo Map Tour
 A map of interesting locations with markers that the audience can click to display details and a photo. 
-<https://github.com/ameau12/photomap>
+<https://ameau12.github.io/photomap/>
